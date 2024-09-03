@@ -7,5 +7,7 @@ Created on Mon Sep  2 16:00:05 2024
 h = int(input(' nhap gio: '))
 m = int(input(' nhap phut: '))
 s = int(input(' nhap giay: '))
+a = f"{h}h{m}p{s}s"
+print("time: ", a)
 tongsogiay= h*3600+m*60+s
 print('tổng số giây: ',tongsogiay)
