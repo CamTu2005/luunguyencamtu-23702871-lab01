@@ -6,10 +6,10 @@ Created on Mon Sep  2 15:09:01 2024
 """
 
 import random
-print(random.randrange(0,100))
-print(random.randrange(50,99))
-print(random.randrange(-39,79))
-print(random.randrange(-79,-39))
+print(int(random.randrange(0,100)))
+print(int(random.randrange(50,99)))
+print(int(random.randrange(-39,79)))
+print(int(random.randrange(-79,-39)))
 
 print()
 print(float(random.randrange(0,100)))
